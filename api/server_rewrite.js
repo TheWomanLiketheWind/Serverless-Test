@@ -6,7 +6,7 @@ const server = jsonServer.create()
 
 const middlewares = jsonServer.defaults()
 
-const dbFilename = path.join(os.tmpdir(), 'data.json')
+const dbFilename = path.join(os.tmpdir(), 'db.json')
 
 // 判断一下 dbFilename 是否存在，如果不存在才创建
 if (!fs.existsSync(dbFilename)) {
