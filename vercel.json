@@ -10,12 +10,12 @@
       "dest": "/api/server.js"
     },
     {
-      "src": "/api/server_rewrite/(.*)",
-      "dest": "/api/server_rewrite.js"
+      "src": "/api/rewrite/(.*)",
+      "dest": "/api/rewrite.js"
     },
     {
-      "src": "/api/server_rewrite/posts/(.*)",
-      "dest": "/api/server_rewrite.js"
+      "src": "/api/rewrite/posts/(.*)",
+      "dest": "/api/rewrite.js"
     }
   ]
 }
