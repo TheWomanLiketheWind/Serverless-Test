@@ -4,6 +4,10 @@
     {
       "src": "/api/server/(.*)",
       "dest": "/api/server.js"
+    },
+    {
+      "src": "/api/server/posts/(.*)",
+      "dest": "/api/server.js"
     }
   ]
 }
