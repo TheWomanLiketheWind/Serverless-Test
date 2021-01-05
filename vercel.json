@@ -8,6 +8,14 @@
     {
       "src": "/api/server/posts/(.*)",
       "dest": "/api/server.js"
+    },
+    {
+      "src": "/api/server_rewrite/(.*)",
+      "dest": "/api/server_rewrite.js"
+    },
+    {
+      "src": "/api/server_rewrite/posts/(.*)",
+      "dest": "/api/server_rewrite.js"
     }
   ]
 }
